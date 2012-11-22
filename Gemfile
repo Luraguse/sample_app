@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'pg', '0.12.2'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 
@@ -9,6 +8,7 @@ gem 'bcrypt-ruby', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
+	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails', '2.11.0'
 end
 
